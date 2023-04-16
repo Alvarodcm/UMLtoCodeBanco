@@ -14,7 +14,7 @@ namespace Bank2
             public string name;
             protected string Phone;
             public string Email;
-            public Adress Direccion;
+            public Adress adress;
 
             
         }
