@@ -8,10 +8,10 @@ namespace Bank2
 {
     public struct Transaction
     {
-        private string from;
-        private string to;
-        private float amount;
-        private DateTime request;
+        public string from;
+        public string to;
+        public float amount;
+        public DateTime request;
 
         
     }

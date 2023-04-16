@@ -8,12 +8,12 @@ namespace Bank2
 {
     public struct Adress
     {
-        private string street;
-        private string city;
-        private string state;
-        private int postalCode;
-        private string country;
-        private bool validate;
+        public string street;
+        public string city;
+        public string state;
+        public int postalCode;
+        public string country;
+        public bool validate;
 
        
     }

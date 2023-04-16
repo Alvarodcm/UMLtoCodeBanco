@@ -10,23 +10,20 @@ namespace Bank2
     
         public abstract class Person
         {
-            protected int ID;
-            protected string name;
-            private string Phone;
-            private string Email;
-            protected Adress Direccion;
+            public int ID;
+            public string name;
+            protected string Phone;
+            public string Email;
+            public Adress Direccion;
 
             
         }
     public class Employee : Person
     {
-        private Departament departament;
+        public Enum departament;
         private float salary;
 
-        public enum Departament
-        {
-            
-        }
+       
 
        
     }
@@ -34,9 +31,9 @@ namespace Bank2
     
     public class Customer : Person
     {
-        private DateTime registration;
+        public DateTime registration;
         private int creditScore;
-        private Account account;
+        public Account account;
 
         
     }

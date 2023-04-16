@@ -9,11 +9,11 @@ namespace Bank2
     
     public class Account
     {
-        private string iban;
+        public string IBAN;
         protected float amount;
-        private Transaction transaction;
+        public Transaction transaction;
 
-        public bool Transsaction(string details)
+        public bool Transaction(string transactionInfo)
         {
          
             return true;
@@ -25,7 +25,7 @@ namespace Bank2
     
     public class Investing : Account
     {
-        private float interest;
+        public float interest;
 
         public void ApplyInterest()
         {
