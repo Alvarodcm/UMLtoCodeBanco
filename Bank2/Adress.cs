@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bank2
 {
-    public class Adress
+    public struct Adress
     {
         private string street;
         private string city;

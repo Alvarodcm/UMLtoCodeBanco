@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bank2
 {
-    public class Transaction
+    public struct Transaction
     {
         private string from;
         private string to;

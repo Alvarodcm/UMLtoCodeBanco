@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Bank2
 {
     
-    public class Account
+    public abstract class Account
     {
         private string iban;
         protected float amount;
